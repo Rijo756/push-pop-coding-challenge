@@ -15,7 +15,7 @@ Packages Used:
 	vue-good-table --> npm install vue-good-table 	  #Module to handle the table
 	
 Functions for managing these fuctionlaties:
-	buttonclick() : This Function is called when a error request button is clicked. It handles removing a row and adding it into other error group. 
+	 buttonclick() : This Function is called when a error request button is clicked. It handles removing a row and adding it into other error group. 
 					Also informs the backend with the error details that this button is clicked. Post Axios request is used.
 					
 	 undobutton() : This Function is for Undo Button. All the 3 Undo Buttons do the same task. Added 3 buttons for accessibility.
