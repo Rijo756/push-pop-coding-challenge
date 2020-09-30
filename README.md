@@ -23,11 +23,8 @@ Functions for managing these fuctionlaties:
 					Also informs the backend with the error details that this button is clicked. Post Axios request is used.
 	undobutton() : This Function is for Undo Button. All the 3 Undo Buttons do the same task. Added 3 buttons for accessibility.
 					Undo till the first action is handled and the Invalid Undo button press is also handled. Post Axios request is used.	
-					
-HideIntersection(): A Function that will erase the data about the intersection details. 
-
-Intersection () and 
-Intersection_display() : A Function that will call the API for the current intersection details by the current array from Frontend to API. 
+	HideIntersection(): A Function that will erase the data about the intersection details. 
+	Intersection (), Intersection_display() : A Function that will call the API for the current intersection details by the current array from Frontend to API. 
 						 Get Axios request is used.
 
 API:
@@ -35,7 +32,7 @@ API:
 Added two additional packages:
 
 	starlette.middleware.cors :  There were problems(No Access-Control-Allow-Origin) while using axios in connecting with the API. So inorder to overcome this issue used this module to get the access.
-					     json :  Used to convert a string into Dictionary
+	json :  Used to convert a string into Dictionary
 
 Additional functions: 
 
