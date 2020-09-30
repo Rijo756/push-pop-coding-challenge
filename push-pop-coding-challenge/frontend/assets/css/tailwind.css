@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.myButton{
+    opacity: 0.4;
+}
+
+.myButton:hover{
+    opacity: 1;
+}
+
+.UndButton{
+    opacity: 0.4;
+}
+
+.UndButton:hover{
+    opacity: 1;
+}
+
+.vgtable{
+    max-height:"275px";
+}
+
+.intersection{
+    opacity: 0.4;
+}
+
+.intersection:hover{
+    opacity: 1;
+}
